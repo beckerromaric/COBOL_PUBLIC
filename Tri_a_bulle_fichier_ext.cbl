@@ -54,14 +54,13 @@
            PERFORM FIN.
 
        INIT.
-           DISPLAY 'INIT'
            MOVE 0 TO EOF
            IF BOOL = 1 THEN
                MOVE 0 TO BOOL
            ELSE
                MOVE 1 TO BOOL
            END-IF
-           DISPLAY BOOL
+
            IF BOOL = 1 THEN
                OPEN INPUT NOM OUTPUT SORTIE
            ELSE
@@ -76,7 +75,6 @@
 
        TRI-BULLE.
 
-           DISPLAY BOOL
            IF Z-ID < T-ID THEN
                MOVE TAMPON TO ZONE-G
                PERFORM ECRITURE
