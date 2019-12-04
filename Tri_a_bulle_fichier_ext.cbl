@@ -9,8 +9,8 @@
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
-           SELECT NOM ASSIGN TO 'C:\Users\CRM\Desktop\EXO15.txt'.
-           SELECT SORTIE ASSIGN TO 'C:\Users\CRM\Desktop\EXO15-S.txt'.
+           SELECT NOM ASSIGN TO 'C:\Users\***\Desktop\EXO15.txt'.
+           SELECT SORTIE ASSIGN TO 'C:\Users\***\Desktop\EXO15-S.txt'.
        DATA DIVISION.
        FILE SECTION.
        FD  NOM.
