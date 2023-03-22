@@ -1,5 +1,5 @@
       ******************************************************************
-      * Author:
+      * Author: BECKER Romaric
       * Date:
       * Purpose:
       * Tectonics: cobc
@@ -46,7 +46,7 @@
            PERFORM FIN2
            STOP RUN.
        FIN2.
-           DISPLAY 'Le compteur a effectué ' COMPTEUR-PASSAGE ' passages
+           DISPLAY 'Le compteur a effectuÃ© ' COMPTEUR-PASSAGE ' passages
       -     ''.
        MAIN.
            PERFORM INIT
