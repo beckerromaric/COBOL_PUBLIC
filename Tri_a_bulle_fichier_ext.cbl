@@ -1,6 +1,6 @@
       ******************************************************************
-      * Author: BECKER Romaric
-      * Date:
+      * Author: BECKER Romaric (beckerromaric@github.com)
+      * Date: 2019
       * Purpose:
       * Tectonics: cobc
       ******************************************************************
